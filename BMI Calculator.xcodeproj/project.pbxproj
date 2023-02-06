@@ -14,6 +14,8 @@
 		186D4F45298FB8F80044E107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186D4F43298FB8F80044E107 /* Main.storyboard */; };
 		186D4F47298FB8F90044E107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186D4F46298FB8F90044E107 /* Assets.xcassets */; };
 		186D4F4A298FB8F90044E107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186D4F48298FB8F90044E107 /* LaunchScreen.storyboard */; };
+		187779F92991187000E80CC1 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187779F82991187000E80CC1 /* CalculatorBrain.swift */; };
+		187779FC29912F2000E80CC1 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187779FB29912F2000E80CC1 /* BMI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		186D4F46298FB8F90044E107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		186D4F49298FB8F90044E107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186D4F4B298FB8F90044E107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187779F82991187000E80CC1 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		187779FB29912F2000E80CC1 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 		186A9FC3299041850071F547 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				187779F82991187000E80CC1 /* CalculatorBrain.swift */,
+				187779FB29912F2000E80CC1 /* BMI.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -168,6 +174,8 @@
 				186D4F42298FB8F80044E107 /* CalculateViewController.swift in Sources */,
 				186D4F3E298FB8F80044E107 /* AppDelegate.swift in Sources */,
 				186D4F40298FB8F80044E107 /* SceneDelegate.swift in Sources */,
+				187779F92991187000E80CC1 /* CalculatorBrain.swift in Sources */,
+				187779FC29912F2000E80CC1 /* BMI.swift in Sources */,
 				186A9FC5299041B40071F547 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
